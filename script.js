@@ -3,9 +3,9 @@ function firstWord(s) {
     return ""	 
  }
 
-	let s = s.trim()
+	 s = s.trim()
 
-	let spaceid = s.indexof(" ")
+	let spaceid = s.indexOf(" ")
 	if(spaceid === -1)
 	{
 		return s
