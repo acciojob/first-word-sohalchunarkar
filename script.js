@@ -5,7 +5,7 @@ function firstWord(s) {
 
 	let s = s.trim()
 
-	let spaceid = s.indesOf(" ")
+	let spaceid = s.indexof(" ")
 	if(spaceid === -1)
 	{
 		return s
